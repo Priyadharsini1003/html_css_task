@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with All Input Types</title>
+</head>
+<body>
+    <h1>Form with All Input Types</h1>
+    <form>
+        <!-- Text Input -->
+        <label for="textInput">Name</label>
+        <input type="text" id="textInput" name="textInput" value="John Doe"><br><br>
+
+        <!-- Password Input -->
+        <label for="passwordInput">Password </label>
+        <input type="password" id="passwordInput" name="passwordInput" value="password123"><br><br>
+
+        <!-- Email Input -->
+        <label for="emailInput">Email </label>
+        <input type="email" id="emailInput" name="emailInput" value="john@example.com"><br><br>
+
+        <!-- Tel Input -->
+        <label for="telInput">Tel.No</label>
+        <input type="tel" id="telInput" name="telInput" value="123-456-7890"><br><br>
+
+        <!-- URL Input -->
+        <label for="urlInput">URL </label>
+        <input type="url" id="urlInput" name="urlInput" value="https://example.com"><br><br>
+
+        <!-- Number Input -->
+        <label for="numberInput">Age</label>
+        <input type="number" id="numberInput" name="numberInput" value="42"><br><br>
+
+        <!-- Range Input -->
+        <label for="rangeInput">Range </label>
+        <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" value="50"><br><br>
+
+        <!-- Date Input -->
+        <label for="dateInput">Date </label>
+        <input type="date" id="dateInput" name="dateInput" value="2024-05-22"><br><br>
+
+        <!-- Time Input -->
+        <label for="timeInput">Time </label>
+        <input type="time" id="timeInput" name="timeInput" value="12:30"><br><br>
+
+        <!-- Color Input -->
+        <label for="colorInput">Color </label>
+        <input type="color" id="colorInput" name="colorInput" value="#ff0000"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Radio Buttons:</label><br>
+        <input type="radio" id="radio1" name="radioGroup" value="male" checked>
+        <label for="radio1">Male</label><br>
+        <input type="radio" id="radio2" name="radioGroup" value="female">
+        <label for="radio2">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Selevt Course</label><br>
+        <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1" checked>
+        <label for="checkbox1">IT</label><br>
+        <input type="checkbox" id="checkbox2" name="checkboxGroup" value="option2">
+        <label for="checkbox2">CSE</label><br><br>
+
+        <!-- Select Dropdown -->
+        <label for="select">Select college </label>
+        <select id="select" name="select">
+            <option value="option1">KEC</option>
+            <option value="option2" selected>IIT</option>
+            <option value="option3">CIT</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="textarea">Textarea:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50">Type message here .</textarea><br><br>
+
+        <!-- File Input -->
+        <label for="fileInput">File Input:</label>
+        <input type="file" id="fileInput" name="fileInput"><br><br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" id="hiddenInput" name="hiddenInput" value="hiddenValue">
+
+        <!-- Button -->
+        <label for="buttonInput">Button:</label>
+        <button type="button" id="buttonInput" name="buttonInput" onclick="alert('Button clicked!')">Click Me</button><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    
+</body>
+</html>

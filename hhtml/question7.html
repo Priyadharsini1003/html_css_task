@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aadhaar Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .aadhaar-card {
+      width: 350px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .govt-info {
+      text-align: left;
+    }
+
+    .govt-info h1, .govt-info h2 {
+      margin: 0;
+    }
+
+    .govt-info h1 {
+      font-size: 16px;
+      color: #ff0000;
+    }
+
+    .govt-info h2 {
+      font-size: 12px;
+      color: #000;
+    }
+
+    .photo-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-photo {
+      width: 80px;
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    .personal-info {
+      font-size: 14px;
+    }
+
+    .personal-info p {
+      margin: 5px 0;
+    }
+
+    .barcode-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .barcode {
+      width: 60%;
+      height: auto;
+    }
+
+    .footer {
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="aadhaar-card">
+    <div class="header">
+      <img src="C:\Users\KARUPPUKULLA\eclipse-workspace\hhtml\ouputs\aadhaar-logo.png" alt="Aadhaar Logo" class="logo">
+      <div class="govt-info">
+        <h1>Government of India</h1>
+        <h2>Unique Identification Authority of India</h2>
+      </div>
+    </div>
+    <div class="photo-section">
+      <img src="C:\Users\KARUPPUKULLA\eclipse-workspace\hhtml\ouputs\profile-photo.png" alt="Profile Photo" class="profile-photo">
+      <div class="personal-info">
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>DOB:</strong> 01/01/1990</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Address:</strong></p>
+        <p>123, ABC Street, XYZ City, PIN - 123456</p>
+      </div>
+    </div>
+    <div class="barcode-section">
+      <img src="C:\Users\KARUPPUKULLA\eclipse-workspace\hhtml\ouputs\barcode.png" alt="Barcode" class="barcode">
+    </div>
+    <div class="footer">
+      <p>1234 5678 9012</p>
+    </div>
+  </div>
+</body>
+</html>
